@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/registered"
+            android:icon="@drawable/registered"
+            android:title="Registered" />
+        <item
+            android:id="@+id/blacklist"
+            android:icon="@drawable/blacklist"
+            android:title="Blacklist" />
+
+    </group>
+
+    <item android:title="Dashboard">
+        <menu>
+            <item
+                android:id="@+id/overview"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Overview" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ManualCheck_Overriden">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To be Manually Approved"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#2b5876"
+        android:layout_gravity="center"
+        android:id="@+id/textManualCheckPerson"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view_manual"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"></ListView>
+
+
+</LinearLayout>

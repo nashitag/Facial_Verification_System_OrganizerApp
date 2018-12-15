@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registered"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/alumni"
+        android:layout_width="116dp"
+        android:layout_height="129dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/alumni"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/alumni_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumni"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/alumni_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageView
+        android:id="@+id/students"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/students"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/students_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/students_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageView
+        android:id="@+id/staff"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/staff"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/staff_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Staff"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+
+    <TextView
+        android:id="@+id/staff_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+
+</LinearLayout>
