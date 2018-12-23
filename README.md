@@ -11,9 +11,8 @@ Multi-factor authentication : Higher security
 Our solution comes in three parts, a registration app, facial recognition model and backend app for administrators. Firstly, the registration app records the registrant’s details (an image and ID) by taking a picture of registrant as well as recording down their ID. The image will be uploaded to the Publit.io platform via their API and the URL created will be sent over to firebase.
 This information is then sent over to Firebase and then analysed on the Python backend, with the Facenet model. After a result is obtained, the result is sent back to the registration app so that the user knows he is completed with the process. Lastly, we have another native Android application for administrators at the event. This app tracks the attendance of all registrants that are already present. This application also allows the administrator to do a manual confirmation of the registrant’s identify should the algorithm fail.
 
-THIS APP
+THIS APP: Administrator App
 
-Administrator App
 The administrator’s App aims to give an overview of the Event for which registrations are currently taking place. Organizers can keep track of every individual that has been registered, or has been rejected. Furthermore, the organizer can Manually Verify a registrant in the case where his/her face has been rejected by the facial verification model. Hence, enabling a multi layer verification system
 
 The Administrator App has the following functionalities:
